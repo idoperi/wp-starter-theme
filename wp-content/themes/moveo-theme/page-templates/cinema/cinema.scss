@@ -1,0 +1,9 @@
+.cinema-page-template{
+    min-height: calc(100vh - 200px);
+}
+
+.movie-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

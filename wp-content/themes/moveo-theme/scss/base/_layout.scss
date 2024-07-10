@@ -1,0 +1,18 @@
+@import "../utilities/variables";
+
+.main-layout {
+  display: grid;
+  grid-template-columns: rem(20px) 1fr rem(20px);
+
+  & > * {
+    grid-column: 2;
+  }
+
+  & > .full {
+    grid-column: 1 / -1;
+  }
+
+  @include mq(laptop) {
+    grid-template-columns: 1fr rem(1076px) 1fr;
+  }
+}

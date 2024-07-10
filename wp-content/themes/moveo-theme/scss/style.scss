@@ -1,0 +1,21 @@
+@import "base/fonts";
+@import "base/helpers";
+
+@import "base/normalize";
+@import "base/base";
+@import "base/layout";
+@import "base/typography";
+
+@import "./components/header";
+@import "./components/footer";
+@import "./components/buttons";
+@import "./components/form";
+
+// .nojq {
+//   display: none;
+// }
+
+.wpml-ls-statics-footer,
+.otgs-development-site-front-end {
+  display: none;
+}

@@ -1,0 +1,41 @@
+@use "sass:map";
+
+$breakpoints: (
+  mobile: em(768px),
+  tablet: em(1024px),
+  laptop: em(1280px),
+  desktop: em(1440px),
+);
+
+@mixin mq-max($key) {
+  $size: map.get($breakpoints, $key);
+
+  @media (max-width: $size) {
+    @content;
+  }
+}
+
+@mixin mq($key) {
+  $size: map.get($breakpoints, $key);
+
+  @media (min-width: calc($size + 0.1px)) {
+    @content;
+  }
+}
+
+@mixin english() {
+  :not(:dir(rtl)) {
+    @content;
+  }
+}
+
+@mixin responsive-font-size($size, $subtraction: null) {
+  :dir(rtl) & {
+    font-size: rem($size);
+  }
+
+  :not(:dir(rtl)) & {
+    $adjustedSize: if($subtraction != null, $size - $subtraction, $size * 0.85);
+    font-size: rem($adjustedSize);
+  }
+}
