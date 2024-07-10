@@ -1,8 +1,8 @@
-# Terem WordPress Theme Development
+# Moveo WordPress Theme Development
 
 ## Overview
 
-This repository contains the `wp-content` directory for the Terem WordPress theme. Follow the instructions below to set up the Terem theme in a WordPress installation.
+This repository contains the `wp-content` directory for the moveo WordPress theme. Follow the instructions below to set up the moveo theme in a WordPress installation.
 
 ## Prerequisites
 
@@ -19,16 +19,16 @@ Ensure you have the following installed:
 Create a new directory for your WordPress project, which will serve as the root of your WordPress installation.
 
 ```bash
-mkdir wordpress-terem
-cd wordpress-terem
+mkdir wordpress-moveo
+cd wordpress-moveo
 ```
 
 ### Step 2: Clone the Repository
 
-Clone the Terem theme repository, which includes the `wp-content` structure, into your new project directory.
+Clone the moveo theme repository, which includes the `wp-content` structure, into your new project directory.
 
 ```bash
-git clone https://github.com/MoveoTech/Terem-WP.git .
+git clone https://github.com/MoveoTech/moveo-WP.git .
 ```
 
 *Note*: The period at the end of the command clones the content into the current directory.
@@ -37,7 +37,7 @@ git clone https://github.com/MoveoTech/Terem-WP.git .
 
 1. Visit the [WordPress.org download page](https://wordpress.org/download/) and download the latest version of WordPress.
 2. Unzip the downloaded file to your computer.
-3. Copy all WordPress files from the unzipped folder to your project directory (`wordpress-terem`), excluding the `wp-content` directory.
+3. Copy all WordPress files from the unzipped folder to your project directory (`wordpress-moveo`), excluding the `wp-content` directory.
 
 ### Step 4: Create the Database and Configure WordPress
 
@@ -65,7 +65,7 @@ define('DB_HOST', 'localhost');
 Navigate to the theme directory and install the required Node.js dependencies.
 
 ```bash
-cd wp-content/themes/terem-moveo
+cd wp-content/themes/moveo-moveo
 npm install
 ```
 
