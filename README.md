@@ -87,8 +87,3 @@ php -S localhost:8080
 ```
 
 Now, you can open a web browser and navigate to `http://localhost:8080` to run the WordPress installation script and complete the setup.
-# wp-starter-theme
-# wp-starter-theme
-# wp-starter-theme
-# wp-starter-theme
-# wp-starter-theme
