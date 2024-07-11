@@ -4,6 +4,8 @@
   display: grid;
   grid-template-columns: rem(20px) 1fr rem(20px);
 
+  min-height: calc(100vh - 200px);
+
   & > * {
     grid-column: 2;
   }

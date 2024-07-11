@@ -14,3 +14,6 @@ require_once get_template_directory() . '/theme-setup/register-single-pages.php'
 
 // Include Template Parts Functions
 require_once get_template_directory() . '/theme-setup/template-parts-functions.php';
+
+// Include Enqueue Scripts
+require_once get_template_directory() . '/theme-setup/enqueue.php';
